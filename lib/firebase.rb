@@ -1,4 +1,6 @@
-require "firebase/version"
+# frozen_string_literal: true
+
+require 'firebase/version'
 
 module Firebase
   class Error < StandardError; end

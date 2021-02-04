@@ -1,0 +1,15 @@
+require:
+  - "rubocop-performance"
+  - "rubocop-rspec"
+
+AllCops:
+  Exclude:
+    - "bin/*"
+  TargetRubyVersion: 2.4
+  NewCops: enable
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
